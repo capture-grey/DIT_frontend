@@ -1,14 +1,14 @@
 import "./App.css";
 import Navbar from "./components/Navbar/Navbar";
 import Cards from "./components/Cards";
+import Card from "./components/Card";
+import CardSpread from "./components/CardSpread";
 
 function App() {
   return (
-    <>
-      {/* <Navbar /> */}
-      {/* <Button>Hello</Button> */}
-      <Cards />
-    </>
+    <div className="w-full min-h-screen border bg-[#53389E]">
+      <CardSpread />
+    </div>
   );
 }
 
